@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="fullstackmoviedb.client/fullstackmoviedb.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="FullStackMovieDB.Server/FullStackMovieDB.Server.csproj" />
+  <Project Path="FullStackMovieDBTests/FullStackMovieDBTests.csproj" />
+</Solution>
