@@ -36,9 +36,6 @@ namespace FullStackMovieDB.Server
                 }
             }
 
-            //app.UseDefaultFiles();
-            //app.MapStaticAssets();
-
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -51,8 +48,6 @@ namespace FullStackMovieDB.Server
 
 
             app.MapControllers();
-
-            //app.MapFallbackToFile("/index.html");
 
             app.Run();
         }
